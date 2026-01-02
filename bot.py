@@ -1,7 +1,6 @@
 import discord
 import requests
 import json
-import random
 
 def get_meme():
   response = requests.get('https://meme-api.com/gimme')
